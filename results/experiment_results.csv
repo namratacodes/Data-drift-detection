@@ -3,167 +3,159 @@ window_id,scenario,column_checked,method,score,detected_drift,ground_truth_drift
 1,no_drift,age,PSI,0.005727740738876592,False,False,
 1,no_drift,age,KL,0.002870209011188783,False,False,
 1,no_drift,education,PSI,0.007666907829228719,False,False,
-1,no_drift,education,KL,0.003758348034650132,False,False,
+1,no_drift,education,KL,0.0037583480346501316,False,False,
 1,no_drift,multi_feature,Classifier_RF,0.5129677285535241,False,False,
 1,no_drift,multi_feature,Classifier_LR,0.5079564610568243,False,False,
+1,no_drift,multi_feature,Autoencoder,0.05317949738081029,False,False,
 1,covariate_age,age,KS,0.5438631390491346,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 1,covariate_age,age,PSI,3.8325492121954667,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 1,covariate_age,age,KL,2.8523228555441826,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 1,covariate_age,education,PSI,0.007666907829228719,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-1,covariate_age,education,KL,0.003758348034650132,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
+1,covariate_age,education,KL,0.0037583480346501316,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 1,covariate_age,multi_feature,Classifier_RF,0.9118577658716138,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 1,covariate_age,multi_feature,Classifier_LR,0.8692834153346939,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
+1,covariate_age,multi_feature,Autoencoder,0.0650487368211657,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 1,label_income,age,KS,0.12293614481798289,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 1,label_income,age,PSI,0.08176569931028169,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 1,label_income,age,KL,0.042180774591738704,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 1,label_income,education,PSI,0.07748627057260707,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-1,label_income,education,KL,0.037032160112123506,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
+1,label_income,education,KL,0.03703216011212351,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 1,label_income,multi_feature,Classifier_RF,0.6178220245283385,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 1,label_income,multi_feature,Classifier_LR,0.6006850145809494,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
+1,label_income,multi_feature,Autoencoder,0.08991446190570918,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 1,concept_education,age,KS,0.019892580067634773,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 1,concept_education,age,PSI,0.005727740738876592,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 1,concept_education,age,KL,0.002870209011188783,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 1,concept_education,education,PSI,0.007666907829228719,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-1,concept_education,education,KL,0.003758348034650132,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
+1,concept_education,education,KL,0.0037583480346501316,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 1,concept_education,multi_feature,Classifier_RF,0.5129677285535241,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 1,concept_education,multi_feature,Classifier_LR,0.5079564610568243,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
+1,concept_education,multi_feature,Autoencoder,0.04893574696638154,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 2,no_drift,age,KS,0.017704396260194946,False,False,
 2,no_drift,age,PSI,0.0032442434229636233,False,False,
 2,no_drift,age,KL,0.001621867741485078,False,False,
 2,no_drift,education,PSI,0.002802468932125383,False,False,
-2,no_drift,education,KL,0.0013857736584173726,False,False,
+2,no_drift,education,KL,0.0013857736584173708,False,False,
 2,no_drift,multi_feature,Classifier_RF,0.507978873004238,False,False,
 2,no_drift,multi_feature,Classifier_LR,0.4900835921693535,False,False,
+2,no_drift,multi_feature,Autoencoder,0.04814004376367615,False,False,
 2,covariate_age,age,KS,0.5353093296200517,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 2,covariate_age,age,PSI,3.7392172012766087,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 2,covariate_age,age,KL,2.79469021687612,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 2,covariate_age,education,PSI,0.002802468932125383,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-2,covariate_age,education,KL,0.0013857736584173726,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
+2,covariate_age,education,KL,0.0013857736584173708,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 2,covariate_age,multi_feature,Classifier_RF,0.9091577853831916,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 2,covariate_age,multi_feature,Classifier_LR,0.8689982123176063,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
+2,covariate_age,multi_feature,Autoencoder,0.05543398978847556,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 2,label_income,age,KS,0.13427491545653472,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 2,label_income,age,PSI,0.09668002647565632,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 2,label_income,age,KL,0.05063642190414879,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 2,label_income,education,PSI,0.09558867249353023,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-2,label_income,education,KL,0.0471956450200974,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
+2,label_income,education,KL,0.04719564502009739,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 2,label_income,multi_feature,Classifier_RF,0.6273260085815786,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 2,label_income,multi_feature,Classifier_LR,0.6104917796492486,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
+2,label_income,multi_feature,Autoencoder,0.07970293747099,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 2,concept_education,age,KS,0.017704396260194946,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 2,concept_education,age,PSI,0.0032442434229636233,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 2,concept_education,age,KL,0.001621867741485078,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 2,concept_education,education,PSI,0.002802468932125383,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-2,concept_education,education,KL,0.0013857736584173726,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
+2,concept_education,education,KL,0.0013857736584173708,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 2,concept_education,multi_feature,Classifier_RF,0.507978873004238,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 2,concept_education,multi_feature,Classifier_LR,0.4900835921693535,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
+2,concept_education,multi_feature,Autoencoder,0.04482461375240369,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 3,no_drift,age,KS,0.01949472846628208,False,False,
 3,no_drift,age,PSI,0.007915027797306264,False,False,
 3,no_drift,age,KL,0.004004640624319841,False,False,
 3,no_drift,education,PSI,0.005352307145889501,False,False,
-3,no_drift,education,KL,0.002661924457129152,False,False,
+3,no_drift,education,KL,0.0026619244571291535,False,False,
 3,no_drift,multi_feature,Classifier_RF,0.5151260869794495,False,False,
 3,no_drift,multi_feature,Classifier_LR,0.507730364057916,False,False,
+3,no_drift,multi_feature,Autoencoder,0.048272660964127044,False,False,
 3,covariate_age,age,KS,0.5396856972349313,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 3,covariate_age,age,PSI,3.7508731897118817,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 3,covariate_age,age,KL,2.819522052491621,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 3,covariate_age,education,PSI,0.005352307145889501,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-3,covariate_age,education,KL,0.002661924457129152,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
+3,covariate_age,education,KL,0.0026619244571291535,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 3,covariate_age,multi_feature,Classifier_RF,0.9056975564825019,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 3,covariate_age,multi_feature,Classifier_LR,0.863800398317434,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
+3,covariate_age,multi_feature,Autoencoder,0.055168755387573765,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 3,label_income,age,KS,0.1096081161726676,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 3,label_income,age,PSI,0.08422009914158847,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 3,label_income,age,KL,0.04387695892115837,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-3,label_income,education,PSI,0.10041463488165203,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-3,label_income,education,KL,0.04864775697616415,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
+3,label_income,education,PSI,0.10041463488165202,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
+3,label_income,education,KL,0.04864775697616416,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 3,label_income,multi_feature,Classifier_RF,0.6190797302831992,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 3,label_income,multi_feature,Classifier_LR,0.5916604704223817,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
+3,label_income,multi_feature,Autoencoder,0.0972084079305086,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 3,concept_education,age,KS,0.01949472846628208,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 3,concept_education,age,PSI,0.007915027797306264,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 3,concept_education,age,KL,0.004004640624319841,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 3,concept_education,education,PSI,0.005352307145889501,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-3,concept_education,education,KL,0.002661924457129152,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
+3,concept_education,education,KL,0.0026619244571291535,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 3,concept_education,multi_feature,Classifier_RF,0.5151260869794495,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 3,concept_education,multi_feature,Classifier_LR,0.507730364057916,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
+3,concept_education,multi_feature,Autoencoder,0.055036138187122864,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 4,no_drift,age,KS,0.016311915655460512,False,False,
 4,no_drift,age,PSI,0.004150523057277749,False,False,
 4,no_drift,age,KL,0.002085384323552675,False,False,
-4,no_drift,education,PSI,0.0027275623934127006,False,False,
-4,no_drift,education,KL,0.0013729384827132736,False,False,
+4,no_drift,education,PSI,0.0027275623934127,False,False,
+4,no_drift,education,KL,0.0013729384827132728,False,False,
 4,no_drift,multi_feature,Classifier_RF,0.5166241718565706,False,False,
 4,no_drift,multi_feature,Classifier_LR,0.4959605760661495,False,False,
+4,no_drift,multi_feature,Autoencoder,0.05032822757111597,False,False,
 4,covariate_age,age,KS,0.5400835488362841,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 4,covariate_age,age,PSI,3.773278936305404,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 4,covariate_age,age,KL,2.8310219706004256,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-4,covariate_age,education,PSI,0.0027275623934127006,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-4,covariate_age,education,KL,0.0013729384827132736,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
+4,covariate_age,education,PSI,0.0027275623934127,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
+4,covariate_age,education,KL,0.0013729384827132728,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 4,covariate_age,multi_feature,Classifier_RF,0.906576456381077,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 4,covariate_age,multi_feature,Classifier_LR,0.867579228431357,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
+4,covariate_age,multi_feature,Autoencoder,0.05848418539884623,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 4,label_income,age,KS,0.10642530336184604,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 4,label_income,age,PSI,0.0653949314892482,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 4,label_income,age,KL,0.03436273687545376,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 4,label_income,education,PSI,0.08692496299136271,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-4,label_income,education,KL,0.04245858116872332,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
+4,label_income,education,KL,0.042458581168723315,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 4,label_income,multi_feature,Classifier_RF,0.6165458618756076,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 4,label_income,multi_feature,Classifier_LR,0.5929353147252646,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
+4,label_income,multi_feature,Autoencoder,0.08613487169285856,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 4,concept_education,age,KS,0.016311915655460512,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 4,concept_education,age,PSI,0.004150523057277749,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 4,concept_education,age,KL,0.002085384323552675,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-4,concept_education,education,PSI,0.0027275623934127006,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-4,concept_education,education,KL,0.0013729384827132736,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
+4,concept_education,education,PSI,0.0027275623934127,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
+4,concept_education,education,KL,0.0013729384827132728,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 4,concept_education,multi_feature,Classifier_RF,0.5166241718565706,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 4,concept_education,multi_feature,Classifier_LR,0.4959605760661495,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
+4,concept_education,multi_feature,Autoencoder,0.045156156753530935,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 5,no_drift,age,KS,0.01909687686492938,False,False,
 5,no_drift,age,PSI,0.004969686060586274,False,False,
 5,no_drift,age,KL,0.0024866071812019346,False,False,
 5,no_drift,education,PSI,0.003910701453812056,False,False,
-5,no_drift,education,KL,0.0019208320094690184,False,False,
+5,no_drift,education,KL,0.00192083200946902,False,False,
 5,no_drift,multi_feature,Classifier_RF,0.5215829250843305,False,False,
 5,no_drift,multi_feature,Classifier_LR,0.4964655040578808,False,False,
+5,no_drift,multi_feature,Autoencoder,0.051787016776075855,False,False,
 5,covariate_age,age,KS,0.5418738810423712,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 5,covariate_age,age,PSI,3.7710735060459077,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 5,covariate_age,age,KL,2.8214230910719715,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 5,covariate_age,education,PSI,0.003910701453812056,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-5,covariate_age,education,KL,0.0019208320094690184,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
+5,covariate_age,education,KL,0.00192083200946902,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 5,covariate_age,multi_feature,Classifier_RF,0.9115385054834566,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 5,covariate_age,multi_feature,Classifier_LR,0.8660103921124005,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
+5,covariate_age,multi_feature,Autoencoder,0.07161328824348517,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
 5,label_income,age,KS,0.12194151581460115,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 5,label_income,age,PSI,0.08220878607050609,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 5,label_income,age,KL,0.04236469511574513,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 5,label_income,education,PSI,0.10028669421731692,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-5,label_income,education,KL,0.04824192268622002,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
+5,label_income,education,KL,0.04824192268622003,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 5,label_income,multi_feature,Classifier_RF,0.6267327511500405,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 5,label_income,multi_feature,Classifier_LR,0.6096271618740255,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
+5,label_income,multi_feature,Autoencoder,0.08441084808699689,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
 5,concept_education,age,KS,0.01909687686492938,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 5,concept_education,age,PSI,0.004969686060586274,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 5,concept_education,age,KL,0.0024866071812019346,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 5,concept_education,education,PSI,0.003910701453812056,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-5,concept_education,education,KL,0.0019208320094690184,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
+5,concept_education,education,KL,0.00192083200946902,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 5,concept_education,multi_feature,Classifier_RF,0.5215829250843305,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
 5,concept_education,multi_feature,Classifier_LR,0.4964655040578808,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-6,no_drift,age,KS,0.02807459717525363,False,False,
-6,no_drift,age,PSI,0.017816405672020957,False,False,
-6,no_drift,age,KL,0.008813160237907847,False,False,
-6,no_drift,education,PSI,0.01669235003325726,False,False,
-6,no_drift,education,KL,0.008169902705528472,False,False,
-6,no_drift,multi_feature,Classifier_RF,0.4934283189750386,False,False,
-6,no_drift,multi_feature,Classifier_LR,0.5120212060967528,False,False,
-6,covariate_age,age,KS,0.5473371792321464,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-6,covariate_age,age,PSI,3.9804045865551223,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-6,covariate_age,age,KL,2.9631715017011975,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-6,covariate_age,education,PSI,0.01669235003325726,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-6,covariate_age,education,KL,0.008169902705528472,False,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-6,covariate_age,multi_feature,Classifier_RF,0.9203700022089685,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-6,covariate_age,multi_feature,Classifier_LR,0.8775502540313673,True,True,"{'drift_type': 'covariate', 'column': 'age', 'shift_std': 1.5}"
-6,label_income,age,KS,0.12852337378157946,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-6,label_income,age,PSI,0.10380454943146494,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-6,label_income,age,KL,0.05425621464837079,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-6,label_income,education,PSI,0.1856812167282641,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-6,label_income,education,KL,0.08472275588639029,False,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-6,label_income,multi_feature,Classifier_RF,0.6748862381267948,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-6,label_income,multi_feature,Classifier_LR,0.6173912083057211,True,True,"{'drift_type': 'label', 'target_col': 'income', 'new_positive_rate': 0.6}"
-6,concept_education,age,KS,0.02807459717525363,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-6,concept_education,age,PSI,0.017816405672020957,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-6,concept_education,age,KL,0.008813160237907847,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-6,concept_education,education,PSI,0.01669235003325726,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-6,concept_education,education,KL,0.008169902705528472,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-6,concept_education,multi_feature,Classifier_RF,0.4934283189750386,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
-6,concept_education,multi_feature,Classifier_LR,0.5120212060967528,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
+5,concept_education,multi_feature,Autoencoder,0.04780850076254891,False,True,"{'drift_type': 'concept', 'condition_col': 'education', 'condition_value': 'Bachelors', 'flip_fraction': 0.5}"
